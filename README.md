@@ -1,5 +1,7 @@
-# [Unfinished] Night
+# Night
+Beautiful dark night theme inspired by Kha's Tokyo theme.
 
-This is a Powercord theme that has a very pleasurable experience in dark mode.
+**Status**: Unfinished, but usable
 
-Heavily inspired by Kha's Tokyo theme.
+**Preview**:
+![Preview](https://i.imgur.com/YRanahJ.png)
