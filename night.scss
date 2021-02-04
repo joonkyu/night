@@ -128,6 +128,7 @@ svg.slider-TkfMQL svg {
   display: none;
 }
 
+.body-3iLsc4,
 .footer-1fjuF6,
 .option-3KoAJB,
 .lookFilled-22uAsw.select-2fjwPw,
@@ -220,7 +221,7 @@ $bot-name: #a5b3ff;
   position: relative;
   overflow: hidden;
   border: solid;
-  border-width: 0 0 0 2px;
+  border-width: 0 0 0 3px;
   border-radius: 3px;
 }
 .roleCircle-3xAZ1j.flex-1O1GKY {
@@ -250,14 +251,14 @@ $bot-name: #a5b3ff;
     z-index: 1;
 
     & + .connectedAccountNameInner-1phBvE::after {
-      --box-shadow: -2px 0 0 0;
+      --box-shadow: -3px 0 0 0;
       content: "";
       position: absolute;
       border-radius: 1px 3px 3px 1px;
       margin-left: -35px;
       height: 46px;
       width: 44%;
-      border-radius: 3px;
+      border-radius: 2px;
     }
   }
   
