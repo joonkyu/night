@@ -1,0 +1,8 @@
+{
+  "name": "Night",
+  "description": "Heavily inspired by Kha's Tokyo theme.",
+  "version": "999",
+  "author": "Joonkyu",
+  "theme": "night.scss",
+  "license": "MIT"
+}
