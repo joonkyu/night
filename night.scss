@@ -2,6 +2,7 @@
   Import
 */
 @import url(https://aokiare.github.io/addons/apple/base.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css);
 
 /*
   Main
@@ -127,7 +128,6 @@ svg.slider-TkfMQL svg {
   display: none;
 }
 
-.fade-2kXiP2,
 .footer-1fjuF6,
 .option-3KoAJB,
 .lookFilled-22uAsw.select-2fjwPw,
@@ -397,4 +397,22 @@ $bot-name: #a5b3ff;
     background-color: #424491;
     box-shadow: var(--box-shadow) #676ae6;
   }
+}
+
+/*
+  Replace Discord Watermark Text
+*/
+.wordmark-2iDDfm:after {
+  content: "Night";
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  width: 4000px;
+  top: 5px;
+  padding-left: -3px;
+  font-family: "Discord";
+}
+
+.wordmark-2iDDfm > svg {
+  width: 0px;
 }
