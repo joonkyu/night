@@ -59,7 +59,8 @@
 .input-2VB9rf,
 .powercord-toast .contents .inner,
 .auto-Ge5KZx::-webkit-scrollbar-thumb,
-.thin-1ybCId::-webkit-scrollbar-thumb {
+.thin-1ybCId::-webkit-scrollbar-thumb,
+.wrapperAudio-1jDe0Q {
   background-color: #1e212b !important;
 }
 
@@ -75,14 +76,18 @@
   background-color: transparent !important;
 }
 
-.theme-dark .footer-2gL1pp {
+.theme-dark .footer-2gL1pp,
+.header-ykumBX,
+.theme-dark .footer-3mqk7D,
+.searchBar-6Kv8R2,
+.content-yTz4x3:before,
+.header-2V-4Sw {
   box-shadow: none;
 }
 
 .separator-XqIyoz,
 .divider-3573oO,
-.resultsGroup-r_nuzN:before,
-.anchor-3Z-8Bb {
+.resultsGroup-r_nuzN:before {
   display: none;
 }
 
@@ -141,8 +146,13 @@
 .scrollerBase-289Jih::-webkit-scrollbar-track {
   background-color: transparent !important;
 }
+
 ::selection {
-    background: var(--ColAccent) !important;
+  background: var(--ColAccent) !important;
+}
+
+.anchor-3Z-8Bb {
+  color: var(--ColAccent) !important;
 }
 
 .statusItem-33LqPf[aria-label="Hide Game Activity"] svg,
@@ -195,8 +205,15 @@ div#guild-header-popout-invite-people {
 .closeButton-1152MI:hover,
 .button-1-5Aqk:hover,
 .messages-3G3erD:hover,
-.tertiary-aMXF0g:hover {
+.tertiary-aMXF0g:hover,
+.option-96V44q:hover,
+.messageGroupWrapper-o-Zw7G:hover {
   background-color: var(--background-modifier-selected) !important;
+}
+
+.messageGroupWrapper-o-Zw7G,
+.wrapperAudio-1jDe0Q {
+  border: none;
 }
 
 .colorDanger-2qLCe1.focused-3afm-j {
@@ -228,7 +245,10 @@ svg.slider-TkfMQL svg {
 .searchHeader-2XoQg7,
 .messageContainer-gbhlwo,
 .header-2-Imhb,
-.messages-3G3erD {
+.messages-3G3erD,
+.queryContainer-RKFJW-,
+.header-ykumBX,
+.messageGroupWrapper-o-Zw7G {
   background-color: var(--background-secondary) !important;
 }
 
@@ -248,6 +268,10 @@ svg.slider-TkfMQL svg {
   border-top-color: transparent !important;
 }
 
+.userInfoSection-2acyCx+.userInfoSection-2acyCx {
+  border-top: none;
+}
+
 .accountList-33MS45,
 .connectionHeader-2MDqhu,
 .previewOverlayInner-1WXURq,
@@ -264,7 +288,8 @@ svg.slider-TkfMQL svg {
   border-bottom-color: transparent !important;
 }
 
-.container-3RCQyg {
+.container-3RCQyg,
+.activityPanel-28dQGo {
   border-bottom: none;
 }
 
