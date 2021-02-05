@@ -57,7 +57,6 @@
 .scrollableContainer-2NUZem,
 .input-2_SIlA,
 .input-2VB9rf,
-.powercord-toast .contents .inner,
 .auto-Ge5KZx::-webkit-scrollbar-thumb,
 .thin-1ybCId::-webkit-scrollbar-thumb,
 .wrapperAudio-1jDe0Q,
@@ -66,7 +65,9 @@
 .item-26Dhrx[aria-checked=true],
 .auditLog-3jNbM6,
 .card-3RzMcx,
-.theme-dark .inset-3sAvek {
+.theme-dark .inset-3sAvek,
+.header-2C89wJ,
+.powercord-toast .header {
   background-color: #1e212b !important;
 }
 
@@ -145,11 +146,11 @@
 .modal-yWgWj-,
 .tutorial-3w5I9h,
 .inner-2P4tQO,
-.inner-3ErfOT,
 .inspector-S2gM3e,
 .diversitySelectorPopout-3FiGaM,
-.root-1gCeng,
-.pageWrapper-1PgVDX {
+.pageWrapper-1PgVDX,
+.inner-3ErfOT,
+.powercord-toast .contents .inner {
   background-color: var(--background-primary) !important;
 }
 .footer-3mqk7D.hasSpoilers-1IRtQC {
@@ -295,7 +296,12 @@ svg.slider-TkfMQL svg {
 .emojiSection-3Fb9ix,
 .message-2qRu38,
 .popout-103y-5,
-.container-3ayLPN.elevationBorderHigh-2WYJ09 {
+.container-3ayLPN.elevationBorderHigh-2WYJ09,
+.body-Ogsp8i,
+.root-1gCeng,
+.noiseCancellationPopout-iRK2A0,
+.footer-1kmXd4,
+.theme-dark .container-2x5lvQ section {
   background-color: var(--background-secondary) !important;
 }
 
