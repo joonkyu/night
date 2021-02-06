@@ -1,7 +1,7 @@
 # Night
-Beautiful dark night theme inspired by Kha's Tokyo theme.
+Beautiful dark theme inspired by Kha's Tokyo theme.
 
-**Status**: Unfinished, but usable
+**Status**: Usable with minor flaws
 
 **Preview**:
-![Preview](https://i.imgur.com/eu6zqtl.png)
+![Preview](https://i.imgur.com/t5pwkVY.png)
