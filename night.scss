@@ -58,6 +58,24 @@
   background-color: #1a1b26 !important;
 }
 
+.theme-light .container-1CE3eW,
+.colorHeaderPrimary-26Jzh-,
+.theme-light .content-1LAB8Z,
+.theme-light .container-UC8Ug1 {
+  background-color: #1a1b26 !important;
+  color: #ffffff !important;
+}
+
+.colorHeaderSecondary-3Sp3Ft {
+  color: #ffffff !important;
+}
+
+.theme-light .input--jS-j2,
+.theme-light .inputDefault-_djjkz {
+  background-color: #161721 !important;
+  color: #ffffff !important;
+}
+
 .scrollableContainer-2NUZem,
 .input-2_SIlA,
 .input-2VB9rf,
@@ -179,7 +197,9 @@
   color: var(--ColAccent) !important;
 }
 
-.bodyLink-3A8Buv {
+.bodyLink-3A8Buv,
+.colorStandard-2KCXvj,
+.sampleLink-2NLvZg {
   color: #fff !important;
 }
 
@@ -246,7 +266,8 @@ div#guild-header-popout-invite-people {
 .navButtonActive-1MkytQ,
 .container-cMG81i.medium-1LLV3p:hover,
 .container-2XeR5Z.medium-2-DE5M:hover,
-.searchBarComponent-yxeVIL:hover {
+.searchBarComponent-yxeVIL:hover,
+.container-UC8Ug1:hover {
   background-color: var(--background-modifier-selected) !important;
 }
 
@@ -422,6 +443,7 @@ $bot-name: #a5b3ff;
 /*
   Nice Roles By LuckFire, Taken From Midnight Mars
 */
+/*
 .role-2irmRk.flex-1O1GKY:not(.addButton-pcyyf6):not(.actionButton-VzECiy) {
   z-index: 1;
   position: relative;
@@ -445,6 +467,7 @@ $bot-name: #a5b3ff;
   top: 0;
   left: 0;
 }
+*/
 
 /*
   Nice User Connections By LuckFire, Taken From Midnight Mars
