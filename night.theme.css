@@ -291,7 +291,8 @@ div#guild-header-popout-invite-people {
 .container-cMG81i.medium-1LLV3p:hover,
 .container-2XeR5Z.medium-2-DE5M:hover,
 .searchBarComponent-yxeVIL:hover,
-.container-UC8Ug1:hover {
+.container-UC8Ug1:hover,
+.container-S9SaVf:hover {
   background-color: var(--background-modifier-selected) !important;
 }
 
@@ -303,7 +304,8 @@ div#guild-header-popout-invite-people {
 .container-3XJ8ns,
 .textContainer-C0szpm,
 .footer-2yA7Ep,
-.css-gvi9bl-control {
+.css-gvi9bl-control,
+.container-S9SaVf {
   border: none;
 }
 
@@ -427,7 +429,8 @@ svg.slider-TkfMQL svg {
 .userInfoSection-2acyCx+.userInfoSection-2acyCx,
 .peopleListItem-2nzedh,
 .userInfoSection-q_35fn+.userInfoSection-q_35fn,
-.featureBorder-7j4v58 {
+.featureBorder-7j4v58,
+.container-3yC5sj {
   border-top: none;
 }
 
