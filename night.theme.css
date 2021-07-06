@@ -1,0 +1,732 @@
+/**
+ * @name night
+ * @author joonkyu#0001
+ * @version 1.0
+ * @description Beautiful theme.
+ * @source https://github.com/joonkyu/night
+ * @updateUrl https://github.com/joonkyu/night/night.theme.css
+ * @authorId 821907846235947009
+ * @invite sAxn2PyNKx
+ * @donate
+ * @website https://joonkyu.github.io/
+*/
+
+/*
+  Import
+*/
+@import url(https://aokiare.github.io/addons/apple/base.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css);
+
+/*
+  Main
+*/
+:root {
+  --Colleft: #0e0e13 !important;
+  --ColAccent: #a5b3ff !important;
+  --ColMemberList: #161721 !important;
+  --background-primary: #1a1b26 !important;
+  --background-secondary: #161721 !important;
+
+  /*
+    Blue
+  */
+  --Col-dcweb-1: #7289DA !important;
+
+  /*
+    Gray
+  */
+  --Col-dcweb-2: #99AAB5 !important;
+
+  /*
+    More Gray
+  */
+  --Col-dcweb-3: #2C2F33 !important;
+
+  /*
+    Not Quite Black
+  */
+  --Col-dcweb-4: #23272A !important;
+
+  /*
+    Original Gray Color From Discord
+  */
+  --col-dcweb-5: #36393f !important;
+
+  /*
+    Original Chatbox Color From Discord
+  */
+  --col-dcweb-6: #40444b !important;
+
+  /*
+    Original Embeds Color
+  */
+  --col-dcweb-7: #2f3136 !important;
+}
+
+/*
+  Below Is Disorganized
+  I'll clean it up later
+*/
+.root-217Brm {
+  background-color: #1a1b26 !important;
+}
+
+.theme-light .container-1CE3eW,
+.theme-light .content-1LAB8Z,
+.theme-light .container-UC8Ug1 {
+  background-color: #1a1b26 !important;
+  color: #ffffff !important;
+}
+
+.colorHeaderSecondary-3Sp3Ft {
+  color: #ffffff !important;
+}
+
+.theme-light .input--jS-j2,
+.theme-light .inputDefault-_djjkz {
+  background-color: #161721 !important;
+  color: #ffffff !important;
+}
+
+.scrollableContainer-2NUZem,
+.input-2_SIlA,
+.input-2VB9rf,
+.auto-Ge5KZx::-webkit-scrollbar-thumb,
+.thin-1ybCId::-webkit-scrollbar-thumb,
+.wrapperAudio-1jDe0Q,
+.tierBody-x9kBBp,
+.theme-dark .footer-2gL1pp,
+.item-26Dhrx[aria-checked=true],
+.auditLog-3jNbM6,
+.card-3RzMcx,
+.theme-dark .inset-3sAvek,
+.header-2C89wJ,
+.powercord-toast .header {
+  background-color: #1e212b !important;
+}
+
+.powercord-toast .contents .inner,
+.breadcrumbsWrapper-3avBWN,
+.attachment-33OFj0,
+.cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g {
+  border-color: transparent !important;
+}
+
+.markup-2BOw-j,
+.button-F9qN4n,
+.closeButton-1152MI,
+.tertiary-aMXF0g,
+.header-1TKi98 {
+  background-color: transparent !important;
+}
+
+.theme-dark .footer-2gL1pp,
+.header-ykumBX,
+.theme-dark .footer-3mqk7D,
+.searchBar-6Kv8R2,
+.content-yTz4x3::before,
+.header-2V-4Sw,
+.theme-dark .message-2qRu38,
+.messagesPopoutWrap-1MQ1bW,
+.theme-dark .elevationBorderHigh-2WYJ09,
+.theme-dark .row-2o2DzQ {
+  box-shadow: none;
+}
+
+.header-8ilj5e {
+  box-shadow: transparent !important;
+}
+
+.separator-XqIyoz,
+.resultsGroup-r_nuzN::before,
+.guildCategorySeparator-_An-MP,
+.content-yTz4x3::before,
+.tabBody-3YRQ8W::before,
+.divider-ewBQKj,
+.divider-3WKGWk,
+.divider-3FBTu8 {
+  display: none;
+}
+
+.memberListContainer-13tNU9 {
+  margin-top: -4px;
+}
+
+.item-31MpoQ {
+  margin-bottom: 0px;
+}
+
+.memberListItem-31QoHj:last-child {
+  margin-bottom: 0px;
+}
+
+/*
+  Wrap The Profile Badges
+  This Used To Break
+  Connections
+*/
+.profileBadges-2vWUYb {
+  position: static;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+
+.bg-h5JY_x,
+.scroller-2TZvBN,
+.layers-3iHuyZ,
+.inner-3nWsbo,
+.uploadModal-2ifh8j,
+.tabBody-3YRQ8W,
+.modalRoot-1Kx4Hb,
+.content-1LAB8Z,
+.searchBarComponent-32dTOx,
+.marginTop4-2BNfKC,
+.textarea-2r0oV8:focus,
+.note-3HfJZ5 .textarea-2r0oV8,
+.note-QfFU8y .textarea-2r0oV8,
+.topSectionNormal-2-vo2m,
+.headerNormal-T_seeN,
+.modal-yWgWj-,
+.tutorial-3w5I9h,
+.inner-2P4tQO,
+.inspector-S2gM3e,
+.diversitySelectorPopout-3FiGaM,
+.pageWrapper-1PgVDX,
+.inner-3ErfOT,
+.powercord-toast .contents .inner,
+.scroller-1Bvpku,
+.connectedAccount-2Jb-Z0,
+.theme-dark .root-1gCeng .content-1LAB8Z,
+.layer-2KE1M9 .root-1gCeng {
+  background-color: var(--background-primary) !important;
+}
+.footer-3mqk7D.hasSpoilers-1IRtQC {
+  background-color: var(--Colleft) !important;
+}
+.container-3baos1 button:not([aria-label=Unmute]):not([aria-label=Undeafen]):hover {
+  border-radius: 50%;
+}
+.scrollerBase-289Jih::-webkit-scrollbar-track {
+  background-color: transparent !important;
+}
+
+::selection {
+  background: var(--ColAccent) !important;
+}
+
+.anchor-3Z-8Bb,
+.fakeLink-26oLcc,
+.lookLink-9FtZy- {
+  color: var(--ColAccent) !important;
+}
+
+.bodyLink-3A8Buv,
+.colorStandard-2KCXvj,
+.sampleLink-2NLvZg {
+  color: #fff !important;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  color: #fff !important;
+  background-color: var(--ColAccent) !important;
+}
+
+.statusItem-33LqPf[aria-label="Hide Game Activity"] svg,
+.statusItem-33LqPf[aria-label="Show Game Activity"] svg {
+  margin-left: -2px;
+}
+.separator-2I32lJ,
+.description-2L932D {
+  display: none;
+}
+foreignObject[mask="url(#svg-mask-status-offline)"] {
+  color: rgb(116, 127, 141) !important;
+}
+foreignObject[mask="url(#svg-mask-status-idle)"] {
+  color: rgb(250, 166, 26) !important;
+}
+foreignObject[mask="url(#svg-mask-status-dnd)"] {
+  color: rgb(240, 71, 71) !important;
+}
+foreignObject[mask="url(#svg-mask-status-online)"] {
+  color: rgb(67, 181, 129) !important;
+}
+path[d="M4 0L0 4V8L4 12L8 8V4L4 0ZM7 7.59L4 10.59L1 7.59V4.41L4 1.41L7 4.41V7.59Z"],
+path[d="M2 4.83V7.17L4 9.17L6 7.17V4.83L4 2.83L2 4.83Z"] {
+  fill: #ff73fa !important;
+}
+path[d="M10.418 13L12.708 15.294L11.292 16.706L6.586 11.991L11.294 7.292L12.707 8.708L10.41 11H21.949C21.446 5.955 17.177 2 12 2C6.486 2 2 6.487 2 12C2 17.513 6.486 22 12 22C17.177 22 21.446 18.046 21.949 13H10.418Z"]
+{
+  fill: #f04747 !important;
+}
+div#guild-header-popout-invite-people {
+  color: #677bc4 !important;
+}
+.selected-1Tbx07,
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O),
+.option-3KoAJB:hover,
+.colorDefault-2K3EoJ.focused-3afm-j,
+.wrapper-3D2qGf:hover,
+.wrapper-3Rixsz:hover,
+.memberListItem-31QoHj:hover,
+.button-F9qN4n:hover,
+.searchBar-3dMhjb:hover,
+.textarea-2r0oV8:hover,
+.option-96V44q:hover,
+.selected-rZcOL-,
+.tab-2j5AEF.selected-2LAck8,
+.tab-ck0077.active-1MbGPa,
+.searchResult-9tQ1uo:hover,
+.messageContainer-gbhlwo:hover,
+.closeButton-1152MI:hover,
+.button-1-5Aqk:hover,
+.messages-3G3erD:hover,
+.tertiary-aMXF0g:hover,
+.option-96V44q:hover,
+.messageGroupWrapper-o-Zw7G:hover,
+.inner-2P4tQO:hover,
+.inner-3ErfOT:hover,
+.navButtonActive-1MkytQ,
+.container-cMG81i.medium-1LLV3p:hover,
+.container-2XeR5Z.medium-2-DE5M:hover,
+.searchBarComponent-yxeVIL:hover,
+.container-UC8Ug1:hover {
+  background-color: var(--background-modifier-selected) !important;
+}
+
+.messageGroupWrapper-o-Zw7G,
+.wrapperAudio-1jDe0Q,
+.diversitySelectorPopout-3FiGaM,
+.wrapper-3D2qGf,
+.connectedAccount-2Jb-Z0,
+.container-3XJ8ns,
+.textContainer-C0szpm,
+.footer-2yA7Ep,
+.css-gvi9bl-control {
+  border: none;
+}
+
+.colorDanger-2qLCe1.focused-3afm-j {
+  color: var(--interactive-normal) !important;
+}
+.body-3ND3kc {
+  color: var(--channels-default) !important;
+}
+
+svg.slider-TkfMQL svg {
+  display: none;
+}
+
+.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label="Help"] {
+  display: none;
+}
+
+.body-3iLsc4,
+.footer-1fjuF6,
+.option-3KoAJB,
+.lookFilled-22uAsw.select-2fjwPw,
+.inputDefault-_djjkz,
+.powercord-toast,
+.menu-3sdvDG,
+.panels-j1Uci_,
+.autocomplete-1vrmpx,
+.wrapper-3D2qGf,
+.popout-38lTFE,
+.searchBar-3dMhjb,
+.searchResult-9tQ1uo,
+.searchHeader-2XoQg7,
+.messageContainer-gbhlwo,
+.header-2-Imhb,
+.messages-3G3erD,
+.queryContainer-RKFJW-,
+.header-ykumBX,
+.messageGroupWrapper-o-Zw7G,
+.tooltip-2QfLtc,
+.tierHeaderContent-2-YfvN,
+.css-3vaxre-menu,
+.container-2VW0UT,
+.wrapper-2qzCYF,
+.wrapper-2Gsate,
+.card-3DjzTQ,
+.searchBox-3Y2Vi7,
+.emojiSection-3Fb9ix,
+.message-2qRu38,
+.popout-103y-5,
+.container-3ayLPN.elevationBorderHigh-2WYJ09,
+.body-Ogsp8i,
+.root-1gCeng,
+.noiseCancellationPopout-iRK2A0,
+.footer-1kmXd4,
+.theme-dark .container-2x5lvQ section,
+.toolbar-2bjZV7,
+.wrapper-39oAo3,
+.previewContainer-12UlHl,
+.container-2dqNWc,
+.theme-dark .feature-2w65J5,
+.theme-dark .outer-1AjyKL,
+.theme-dark .userPopout-xaxa6l,
+.body-r6_QPy, .topSection-y3p-_D,
+.bodyInnerWrapper-26fQXj,
+.footer-3UKYOU,
+.accountProfileCard-1XCH88,
+.verticalFit-waKLYN,
+.theme-dark .payment-xT17Mq,
+.theme-dark .expandedInfo-3kfShd,
+.codeRedemptionRedirect-1wVR4b,
+.sequencer-FWouqi .content-1LAB8Z,
+.profileBannerPreview-3_l0Wd,
+.embedFull-2tM8--,
+.bd-addon-list .bd-addon-header,
+.bd-search-wrapper,
+.theme-dark .card-x5zW6z,
+.cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g {
+  background-color: var(--background-secondary) !important;
+}
+
+.theme-dark .card-x5zW6z {
+  border-color: var(--background-secondary) !important;
+}
+
+.theme-dark .codeRedemptionRedirect-1wVR4b {
+  border-color: transparent;
+}
+
+.avatar-37jOim,
+.avatar-AvHqJA,
+.avatarUploaderInner-Oiob_P {
+  border: 6px solid var(--background-secondary) !important;
+  background-color: var(--background-secondary) !important;
+}
+
+.tooltipPointer-3ZfirK {
+  border-top-color: var(--background-secondary) !important;
+}
+
+.option-96V44q:after,
+.divider-Uf0Wob,
+.separator-gCa7yv,
+.marginTop4-2BNfKC {
+  background: transparent !important;
+}
+
+.lookFilled-22uAsw.select-2fjwPw,
+.css-3vaxre-menu {
+  border-color: var(--deprecated-text-input-border) !important;
+}
+
+.popout-VcNcHB {
+  border-color: var(--background-secondary) !important;
+}
+
+.tabBarContainer-1s1u-z,
+.divider-3573oO {
+  border-top-color: transparent !important;
+}
+
+.userInfoSection-2acyCx+.userInfoSection-2acyCx,
+.peopleListItem-2nzedh,
+.userInfoSection-q_35fn+.userInfoSection-q_35fn,
+.featureBorder-7j4v58 {
+  border-top: none;
+}
+
+.scroller-2ZPeAD {
+  border-left: none;
+}
+
+.accountList-33MS45,
+.connectionHeader-2MDqhu,
+.previewOverlayInner-1WXURq,
+.hoverablePayment-Yc6mK7,
+.payment-xT17Mq,
+.theme-dark .bar-2Qqk5Z,
+.theme-dark .markDash-3hAolZ,
+.container-3auIfb,
+.bd-switch-body {
+  background-color: var(--background-tertiary) !important;
+}
+
+.repliedMessage-VokQwo:before {
+  border-left: var(--spine-width) solid var(--ColAccent);
+  border-bottom: 0 solid var(--ColAccent);
+  border-right: 0 solid var(--ColAccent);
+  border-top: var(--spine-width) solid var(--ColAccent);
+}
+
+.bottomDivider-1K9Gao {
+  border-bottom-color: transparent !important;
+}
+
+.container-3RCQyg,
+.activityPanel-28dQGo,
+.container-1giJp5,
+.tabBarContainer-37hZsr,
+.theme-dark .sectionHeader-20RGqu {
+  border-bottom: none;
+}
+
+/*
+  Local Powercord Bot
+  Image And Name Placeholder
+*/
+$bot-msg: #a5b3ff;
+$bot-name: #a5b3ff;
+
+.wrapper-2a6GCs.ephemeral-1PsL1r {
+  background-color: rgba(114, 137, 218, 0.05);
+  box-shadow: inset 2px 0 #7289da;
+  & .username-1A8OIy {
+    --local-bot-name: "Night";
+    color: $bot-name;
+    visibility: hidden;
+    &::before {
+      content: var(--local-bot-name);
+      visibility: visible;
+    }
+  }
+  &:hover {
+    background-color: rgba(114, 137, 218, 0.12) !important;
+  }
+  & [src*="powercord"],
+  & [src*="/assets/"] {
+    content: url("https://discord.com/assets/49533def46858e98682242755ef6912b.svg");
+  }
+  &
+    [src*="powercord"]
+    + .header-23xsNx
+    > .headerText-3Uvj1Y
+    > .botTagCozy-1fFsZk {
+    margin-left: -65px;
+  }
+  &
+    [src*="/assets/"]
+    + .header-23xsNx
+    > .headerText-3Uvj1Y
+    > .botTagCozy-1fFsZk {
+    margin-left: -30px;
+  }
+}
+
+/*
+  Local Bot Messages Color
+*/
+.ephemeral-1PsL1r {
+  background-color: rgba($bot-msg, 0.1) !important;
+  &::before {
+    background-color: $bot-msg !important;
+  }
+}
+.mouse-mode.full-motion .ephemeral-1PsL1r:hover {
+  background-color: rgba($bot-msg, 0.2) !important;
+}
+
+/*
+  Nice Roles By LuckFire, Taken From Midnight Mars
+*/
+/*
+.role-2irmRk.flex-1O1GKY:not(.addButton-pcyyf6):not(.actionButton-VzECiy) {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  border: solid;
+  border-width: 0 0 0 3px;
+  border-radius: 3px;
+}
+.roleCircle-3xAZ1j.flex-1O1GKY {
+  height: 4px;
+  width: 4px;
+}
+.roleCircle-3xAZ1j.flex-1O1GKY::before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  background: inherit;
+  opacity: 0.15;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+*/
+
+/*
+  Nice User Connections By LuckFire, Taken From Midnight Mars
+*/
+.connectedAccount-36nQx7 {
+  background-color: rbga(0, 0, 0, 0);
+  border-width: 0;
+
+  & > .connectedAccountIcon-3P3V6F {
+    z-index: 1;
+
+    & + .connectedAccountNameInner-1phBvE::after {
+      --box-shadow: -3px 0 0 0;
+      content: "";
+      position: absolute;
+      border-radius: 1px 3px 3px 1px;
+      margin-left: -35px;
+      height: 46px;
+      width: 44%;
+      border-radius: 3px;
+    }
+  }
+
+  & > .connectedAccountNameInner-1phBvE {
+    & + a.anchor-3Z-8Bb {
+      z-index: 1;
+    }
+
+    & > .connectedAccountName-f8AEe2,
+    > .connectedAccountName-f8AEe2 + span {
+      z-index: 1;
+
+      & > .flowerStarContainer-3zDVtj > svg > path {
+        fill: #fff;
+        opacity: 0.4;
+      }
+    }
+  }
+}
+
+/*
+  Discord Default
+*/
+.connectedAccountIcon-3P3V6F[alt*="GitHub"]
+  + .connectedAccountNameInner-1phBvE {
+  /*
+    Github
+  */
+  &::after {
+    background-color: #24292e;
+    box-shadow: var(--box-shadow) #d9dadb;
+  }
+}
+.connectedAccountIcon-3P3V6F[alt*="Twitch"]
+  + .connectedAccountNameInner-1phBvE {
+  /*
+    Twitch
+  */
+  &::after {
+    background-color: #3a2b5f;
+    box-shadow: var(--box-shadow) #9059f6;
+  }
+}
+.connectedAccountIcon-3P3V6F[alt*="Steam"] + .connectedAccountNameInner-1phBvE {
+  /*
+    Steam
+  */
+  &::after {
+    background-color: #171a21;
+    box-shadow: var(--box-shadow) #3b587c;
+  }
+}
+.connectedAccountIcon-3P3V6F[alt*="Spotify"]
+  + .connectedAccountNameInner-1phBvE {
+  /*
+    Spotify
+  */
+  &::after {
+    background-color: #138139;
+    box-shadow: var(--box-shadow) #1ed760;
+  }
+}
+.connectedAccountIcon-3P3V6F[alt*="Twitter"]
+  + .connectedAccountNameInner-1phBvE {
+  /*
+    Twitter
+  */
+  &::after {
+    background-color: rgb(12, 88, 134);
+    box-shadow: var(--box-shadow) #76c5f5;
+  }
+}
+.connectedAccountIcon-3P3V6F[alt*="Reddit"]
+  + .connectedAccountNameInner-1phBvE {
+  /*
+    Reddit
+  */
+  &::after {
+    background-color: #81340e;
+    box-shadow: var(--box-shadow) #ff6314;
+  }
+}
+.connectedAccountIcon-3P3V6F[alt*="YouTube"]
+  + .connectedAccountNameInner-1phBvE {
+  /*
+    YouTube
+  */
+  &::after {
+    background-color: #6d1616;
+    box-shadow: var(--box-shadow) #ee0f0f;
+  }
+}
+.connectedAccountIcon-3P3V6F[alt*="Battle"]
+  + .connectedAccountNameInner-1phBvE {
+  /*
+    Battle.net/Blizzard
+  */
+  &::after {
+    background-color: #175266;
+    box-shadow: var(--box-shadow) #3ab1da;
+  }
+}
+.connectedAccountIcon-3P3V6F[alt*="Xbox"] + .connectedAccountNameInner-1phBvE {
+  /*
+    Xbox Live
+  */
+  &::after {
+    background-color: #1c632a;
+    box-shadow: var(--box-shadow) #77bb44;
+  }
+}
+.connectedAccountIcon-3P3V6F[alt*="Facebook"]
+  + .connectedAccountNameInner-1phBvE {
+  /*
+    Facebook
+  */
+  &::after {
+    background-color: #14223d;
+    box-shadow: var(--box-shadow) #3a5998;
+  }
+}
+.connectedAccountIcon-3P3V6F[alt*="League of Legends"]
+  + .connectedAccountNameInner-1phBvE {
+  /*
+    League of Legend/LoL
+  */
+  &::after {
+    background-color: #424491;
+    box-shadow: var(--box-shadow) #676ae6;
+  }
+}
+.connectedAccountIcon-3P3V6F[alt*="Skype"] + .connectedAccountNameInner-1phBvE {
+  /*
+    Skype
+  */
+  &::after {
+    background-color: #424491;
+    box-shadow: var(--box-shadow) #676ae6;
+  }
+}
+
+/*
+  Replace Discord Watermark Text
+*/
+.wordmark-2iDDfm:after {
+  content: "Night";
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  width: 4000px;
+  top: 5px;
+  padding-left: -3px;
+  font-family: "Discord";
+}
+
+.wordmark-2iDDfm > svg {
+  width: 0px;
+}
+
+.powercord-codeblock-table td:last-child {
+  word-break: break-word !important;
+}
