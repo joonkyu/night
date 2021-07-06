@@ -104,13 +104,6 @@
   background-color: #1e212b !important;
 }
 
-.powercord-toast .contents .inner,
-.breadcrumbsWrapper-3avBWN,
-.attachment-33OFj0,
-.cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g {
-  border-color: transparent !important;
-}
-
 .markup-2BOw-j,
 .button-F9qN4n,
 .closeButton-1152MI,
@@ -306,7 +299,15 @@ div#guild-header-popout-invite-people {
 .textContainer-C0szpm,
 .footer-2yA7Ep,
 .css-gvi9bl-control,
-.container-S9SaVf {
+.container-S9SaVf,
+.theme-dark .card-x5zW6z,
+.theme-dark .invite-18yqGF,
+.theme-dark .codeRedemptionRedirect-1wVR4b,
+.cardPrimaryOutline-29Ujqw,
+.powercord-toast .contents .inner,
+.breadcrumbsWrapper-3avBWN,
+.attachment-33OFj0,
+.cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g {
   border: none;
 }
 
@@ -388,17 +389,9 @@ svg.slider-TkfMQL svg {
 .accountList-33MS45,
 .connectionHeader-2MDqhu,
 .inner-3ErfOT,
-.menu-3sdvDG {
+.menu-3sdvDG,
+.theme-dark .invite-18yqGF {
   background-color: var(--background-secondary) !important;
-}
-
-.theme-dark .card-x5zW6z {
-  border-color: var(--background-secondary) !important;
-}
-
-.theme-dark .codeRedemptionRedirect-1wVR4b,
-.cardPrimaryOutline-29Ujqw {
-  border-color: transparent;
 }
 
 .avatar-37jOim,
