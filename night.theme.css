@@ -93,7 +93,6 @@
 .input-2VB9rf,
 .auto-Ge5KZx::-webkit-scrollbar-thumb,
 .thin-1ybCId::-webkit-scrollbar-thumb,
-.wrapperAudio-1jDe0Q,
 .tierBody-x9kBBp,
 .theme-dark .footer-2gL1pp,
 .item-26Dhrx[aria-checked=true],
@@ -382,7 +381,8 @@ svg.slider-TkfMQL svg {
 .bd-addon-list .bd-addon-header,
 .bd-search-wrapper,
 .theme-dark .card-x5zW6z,
-.cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g {
+.cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g,
+.wrapperAudio-1jDe0Q {
   background-color: var(--background-secondary) !important;
 }
 
