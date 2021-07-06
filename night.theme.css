@@ -192,12 +192,12 @@
 .inspector-S2gM3e,
 .diversitySelectorPopout-3FiGaM,
 .pageWrapper-1PgVDX,
-.inner-3ErfOT,
 .powercord-toast .contents .inner,
 .scroller-1Bvpku,
 .connectedAccount-2Jb-Z0,
 .theme-dark .root-1gCeng .content-1LAB8Z,
-.layer-2KE1M9 .root-1gCeng {
+.layer-2KE1M9 .root-1gCeng,
+.accountBtn-2Nozo3 .accountBtnInner-sj5jLs {
   background-color: var(--background-primary) !important;
 }
 .footer-3mqk7D.hasSpoilers-1IRtQC {
@@ -382,7 +382,11 @@ svg.slider-TkfMQL svg {
 .bd-search-wrapper,
 .theme-dark .card-x5zW6z,
 .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g,
-.wrapperAudio-1jDe0Q {
+.wrapperAudio-1jDe0Q,
+.cardPrimaryOutline-29Ujqw,
+.accountList-33MS45,
+.connectionHeader-2MDqhu,
+.inner-3ErfOT {
   background-color: var(--background-secondary) !important;
 }
 
@@ -390,7 +394,8 @@ svg.slider-TkfMQL svg {
   border-color: var(--background-secondary) !important;
 }
 
-.theme-dark .codeRedemptionRedirect-1wVR4b {
+.theme-dark .codeRedemptionRedirect-1wVR4b,
+.cardPrimaryOutline-29Ujqw {
   border-color: transparent;
 }
 
@@ -438,15 +443,11 @@ svg.slider-TkfMQL svg {
   border-left: none;
 }
 
-.accountList-33MS45,
-.connectionHeader-2MDqhu,
 .previewOverlayInner-1WXURq,
 .hoverablePayment-Yc6mK7,
 .payment-xT17Mq,
 .theme-dark .bar-2Qqk5Z,
-.theme-dark .markDash-3hAolZ,
-.container-3auIfb,
-.bd-switch-body {
+.theme-dark .markDash-3hAolZ {
   background-color: var(--background-tertiary) !important;
 }
 
