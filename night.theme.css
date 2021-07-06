@@ -199,7 +199,7 @@
 .layer-2KE1M9 .root-1gCeng,
 .accountBtn-2Nozo3 .accountBtnInner-sj5jLs,
 .container-7Unqij,
-.menu-3sdvDG {
+.fade-18lLrh.didRender-33z1u8 .menu-3sdvDG {
   background-color: var(--background-primary) !important;
 }
 .footer-3mqk7D.hasSpoilers-1IRtQC {
@@ -387,7 +387,8 @@ svg.slider-TkfMQL svg {
 .cardPrimaryOutline-29Ujqw,
 .accountList-33MS45,
 .connectionHeader-2MDqhu,
-.inner-3ErfOT {
+.inner-3ErfOT,
+.menu-3sdvDG {
   background-color: var(--background-secondary) !important;
 }
 
