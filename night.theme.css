@@ -197,7 +197,8 @@
 .connectedAccount-2Jb-Z0,
 .theme-dark .root-1gCeng .content-1LAB8Z,
 .layer-2KE1M9 .root-1gCeng,
-.accountBtn-2Nozo3 .accountBtnInner-sj5jLs {
+.accountBtn-2Nozo3 .accountBtnInner-sj5jLs,
+.container-7Unqij {
   background-color: var(--background-primary) !important;
 }
 .footer-3mqk7D.hasSpoilers-1IRtQC {
@@ -386,8 +387,7 @@ svg.slider-TkfMQL svg {
 .cardPrimaryOutline-29Ujqw,
 .accountList-33MS45,
 .connectionHeader-2MDqhu,
-.inner-3ErfOT,
-.container-7Unqij {
+.inner-3ErfOT {
   background-color: var(--background-secondary) !important;
 }
 
