@@ -20,7 +20,9 @@
 /*
   Main
 */
-:root {
+:root,
+.theme-dark,
+.theme-light {
   --Colleft: #0e0e13 !important;
   --ColAccent: #a5b3ff !important;
   --ColMemberList: #161721 !important;
@@ -72,9 +74,7 @@
 }
 
 .theme-light .container-1CE3eW,
-.theme-light .content-1LAB8Z,
-.theme-light .container-UC8Ug1 {
-  background-color: #1a1b26 !important;
+.theme-light .content-1LAB8Z {
   color: #ffffff !important;
 }
 
@@ -122,8 +122,9 @@
 .messagesPopoutWrap-1MQ1bW,
 .theme-dark .elevationBorderHigh-2WYJ09,
 .theme-dark .row-2o2DzQ,
-.menu-3sdvDG {
-  box-shadow: none;
+.menu-3sdvDG,
+.theme-dark .game-1ipmAa {
+  box-shadow: none !important;
 }
 
 .header-8ilj5e {
@@ -195,6 +196,12 @@
 .fade-18lLrh.didRender-33z1u8 .menu-3sdvDG {
   background-color: var(--background-primary) !important;
 }
+
+.theme-light .root-1gCeng {
+  background: var(--background-primary) !important;
+  box-shadow: none;
+}
+
 .footer-3mqk7D.hasSpoilers-1IRtQC {
   background-color: var(--Colleft) !important;
 }
@@ -211,13 +218,18 @@
 
 .anchor-3Z-8Bb,
 .fakeLink-26oLcc,
-.lookLink-9FtZy- {
+.lookLink-9FtZy-,
+.base-1x0h_U,
+.sampleLink-2NLvZg {
   color: var(--ColAccent) !important;
 }
 
+.errorMessage-3Guw2R {
+  color: rgb(240, 71, 71) !important;
+}
+
 .bodyLink-3A8Buv,
-.colorStandard-2KCXvj,
-.sampleLink-2NLvZg {
+.colorStandard-2KCXvj {
   color: #fff !important;
 }
 
@@ -307,7 +319,10 @@ div#guild-header-popout-invite-people {
 .powercord-toast .contents .inner,
 .breadcrumbsWrapper-3avBWN,
 .attachment-33OFj0,
-.cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g {
+.cardPrimary-1Hv-to,
+.cardPrimaryEditable-3KtE4g,
+.container-UC8Ug1,
+.card-FDVird:before {
   border: none;
 }
 
@@ -390,7 +405,8 @@ svg.slider-TkfMQL svg {
 .connectionHeader-2MDqhu,
 .inner-3ErfOT,
 .menu-3sdvDG,
-.theme-dark .invite-18yqGF {
+.theme-dark .invite-18yqGF,
+.container-UC8Ug1 {
   background-color: var(--background-secondary) !important;
 }
 
@@ -468,250 +484,6 @@ svg.slider-TkfMQL svg {
 .tabBarContainer-37hZsr,
 .theme-dark .sectionHeader-20RGqu {
   border-bottom: none;
-}
-
-/*
-  Local Powercord Bot
-  Image And Name Placeholder
-*/
-$bot-msg: #a5b3ff;
-$bot-name: #a5b3ff;
-
-.wrapper-2a6GCs.ephemeral-1PsL1r {
-  background-color: rgba(114, 137, 218, 0.05);
-  box-shadow: inset 2px 0 #7289da;
-  & .username-1A8OIy {
-    --local-bot-name: "Night";
-    color: $bot-name;
-    visibility: hidden;
-    &::before {
-      content: var(--local-bot-name);
-      visibility: visible;
-    }
-  }
-  &:hover {
-    background-color: rgba(114, 137, 218, 0.12) !important;
-  }
-  & [src*="powercord"],
-  & [src*="/assets/"] {
-    content: url("https://discord.com/assets/49533def46858e98682242755ef6912b.svg");
-  }
-  &
-    [src*="powercord"]
-    + .header-23xsNx
-    > .headerText-3Uvj1Y
-    > .botTagCozy-1fFsZk {
-    margin-left: -65px;
-  }
-  &
-    [src*="/assets/"]
-    + .header-23xsNx
-    > .headerText-3Uvj1Y
-    > .botTagCozy-1fFsZk {
-    margin-left: -30px;
-  }
-}
-
-/*
-  Local Bot Messages Color
-*/
-.ephemeral-1PsL1r {
-  background-color: rgba($bot-msg, 0.1) !important;
-  &::before {
-    background-color: $bot-msg !important;
-  }
-}
-.mouse-mode.full-motion .ephemeral-1PsL1r:hover {
-  background-color: rgba($bot-msg, 0.2) !important;
-}
-
-/*
-  Nice Roles By LuckFire, Taken From Midnight Mars
-*/
-/*
-.role-2irmRk.flex-1O1GKY:not(.addButton-pcyyf6):not(.actionButton-VzECiy) {
-  z-index: 1;
-  position: relative;
-  overflow: hidden;
-  border: solid;
-  border-width: 0 0 0 3px;
-  border-radius: 3px;
-}
-.roleCircle-3xAZ1j.flex-1O1GKY {
-  height: 4px;
-  width: 4px;
-}
-.roleCircle-3xAZ1j.flex-1O1GKY::before {
-  content: " ";
-  position: absolute;
-  z-index: -1;
-  background: inherit;
-  opacity: 0.15;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-*/
-
-/*
-  Nice User Connections By LuckFire, Taken From Midnight Mars
-*/
-.connectedAccount-36nQx7 {
-  background-color: rbga(0, 0, 0, 0);
-  border-width: 0;
-
-  & > .connectedAccountIcon-3P3V6F {
-    z-index: 1;
-
-    & + .connectedAccountNameInner-1phBvE::after {
-      --box-shadow: -3px 0 0 0;
-      content: "";
-      position: absolute;
-      border-radius: 1px 3px 3px 1px;
-      margin-left: -35px;
-      height: 46px;
-      width: 44%;
-      border-radius: 3px;
-    }
-  }
-
-  & > .connectedAccountNameInner-1phBvE {
-    & + a.anchor-3Z-8Bb {
-      z-index: 1;
-    }
-
-    & > .connectedAccountName-f8AEe2,
-    > .connectedAccountName-f8AEe2 + span {
-      z-index: 1;
-
-      & > .flowerStarContainer-3zDVtj > svg > path {
-        fill: #fff;
-        opacity: 0.4;
-      }
-    }
-  }
-}
-
-/*
-  Discord Default
-*/
-.connectedAccountIcon-3P3V6F[alt*="GitHub"]
-  + .connectedAccountNameInner-1phBvE {
-  /*
-    Github
-  */
-  &::after {
-    background-color: #24292e;
-    box-shadow: var(--box-shadow) #d9dadb;
-  }
-}
-.connectedAccountIcon-3P3V6F[alt*="Twitch"]
-  + .connectedAccountNameInner-1phBvE {
-  /*
-    Twitch
-  */
-  &::after {
-    background-color: #3a2b5f;
-    box-shadow: var(--box-shadow) #9059f6;
-  }
-}
-.connectedAccountIcon-3P3V6F[alt*="Steam"] + .connectedAccountNameInner-1phBvE {
-  /*
-    Steam
-  */
-  &::after {
-    background-color: #171a21;
-    box-shadow: var(--box-shadow) #3b587c;
-  }
-}
-.connectedAccountIcon-3P3V6F[alt*="Spotify"]
-  + .connectedAccountNameInner-1phBvE {
-  /*
-    Spotify
-  */
-  &::after {
-    background-color: #138139;
-    box-shadow: var(--box-shadow) #1ed760;
-  }
-}
-.connectedAccountIcon-3P3V6F[alt*="Twitter"]
-  + .connectedAccountNameInner-1phBvE {
-  /*
-    Twitter
-  */
-  &::after {
-    background-color: rgb(12, 88, 134);
-    box-shadow: var(--box-shadow) #76c5f5;
-  }
-}
-.connectedAccountIcon-3P3V6F[alt*="Reddit"]
-  + .connectedAccountNameInner-1phBvE {
-  /*
-    Reddit
-  */
-  &::after {
-    background-color: #81340e;
-    box-shadow: var(--box-shadow) #ff6314;
-  }
-}
-.connectedAccountIcon-3P3V6F[alt*="YouTube"]
-  + .connectedAccountNameInner-1phBvE {
-  /*
-    YouTube
-  */
-  &::after {
-    background-color: #6d1616;
-    box-shadow: var(--box-shadow) #ee0f0f;
-  }
-}
-.connectedAccountIcon-3P3V6F[alt*="Battle"]
-  + .connectedAccountNameInner-1phBvE {
-  /*
-    Battle.net/Blizzard
-  */
-  &::after {
-    background-color: #175266;
-    box-shadow: var(--box-shadow) #3ab1da;
-  }
-}
-.connectedAccountIcon-3P3V6F[alt*="Xbox"] + .connectedAccountNameInner-1phBvE {
-  /*
-    Xbox Live
-  */
-  &::after {
-    background-color: #1c632a;
-    box-shadow: var(--box-shadow) #77bb44;
-  }
-}
-.connectedAccountIcon-3P3V6F[alt*="Facebook"]
-  + .connectedAccountNameInner-1phBvE {
-  /*
-    Facebook
-  */
-  &::after {
-    background-color: #14223d;
-    box-shadow: var(--box-shadow) #3a5998;
-  }
-}
-.connectedAccountIcon-3P3V6F[alt*="League of Legends"]
-  + .connectedAccountNameInner-1phBvE {
-  /*
-    League of Legend/LoL
-  */
-  &::after {
-    background-color: #424491;
-    box-shadow: var(--box-shadow) #676ae6;
-  }
-}
-.connectedAccountIcon-3P3V6F[alt*="Skype"] + .connectedAccountNameInner-1phBvE {
-  /*
-    Skype
-  */
-  &::after {
-    background-color: #424491;
-    box-shadow: var(--box-shadow) #676ae6;
-  }
 }
 
 /*
